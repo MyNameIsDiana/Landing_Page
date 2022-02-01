@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <!-- code for github icons -->
+     <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+    <title>Landing Page</title>
+    
 </head>
 <body>
     <!-- Diana's Nav section -->
@@ -14,17 +18,37 @@
     <!-- Tanya's form section -->
     <section>
         <div class="form">
+         <style>   input[type=text] {
+                width: 25%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+            </style> 
            
                <h3>Hey There</h3>
                <p>Enter the details to get started.</p>
-            <form>
-                <label for="email">E-mail</label> <br>
-                <label for="phone">Phone</label><br>
-                <input type="submit" value="Submit">
+            <form method = "post">
+               <input type = "text" name = "E-mail" id = "E-mail" required>
+             
+               <br>
+               <input type = "text" name = "Phone" id = "Phone">
+              
+               <br>
+               <input type = "submit" value = "Submit">
+              
 
-
-            </form>
-
+            </form> 
+    <!-- Footer -->
+    <footer>
+        <p>Made with Love and Lots of Tea</p>
+        <!-- linkedin -->
+       
+        <i style='font-size:24px' class='fab'>&#xf08c;</i>
+        <!-- github -->
+        
+        <i class='fab fa-github' style='font-size:24px'></i>
+        <p>Copyright &copy; 2020</p>
+    </footer>
         </div>
 
 
