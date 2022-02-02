@@ -1,6 +1,8 @@
 .container {
-    /* padding: 16px; */
+    padding: 16px;
     background-color: blue;
+    margin: auto;
+    text-align: center;
 }
 
     input  {
@@ -14,4 +16,9 @@
     footer {
         background-color: gray;
         font-size: large;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
     }
