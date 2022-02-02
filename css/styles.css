@@ -1,8 +1,8 @@
 .container {
     padding: 16px;
-    background-color: blue;
+    background-color: rgb(70, 173, 241);
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
     input  {
@@ -13,12 +13,37 @@
         border: none; 
     }
 
+    .button {
+        box-align: center;
+        font-size: 12px;
+        position: relative;
+        left: 25%;
+    }
+
+    .button:hover {
+        background-color: #475e48; /* Gray */
+        color: white;
+    }
+
     footer {
-        background-color: gray;
-        font-size: large;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(128, 128, 128, 0.849);
+        font-size: 16px;
+        color: white;
+        height: 100px;
+        width: 100%;
+    }
+
+    h2 {
         text-align: center;
     }
 
-    h3 {
-        text-align: center;
+    p {
+        font-size: 25px;
+        justify-content: center;
+       
     }
+    /* .i {
+
+    } */
