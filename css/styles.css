@@ -1,0 +1,17 @@
+.container {
+    /* padding: 16px; */
+    background-color: blue;
+}
+
+    input  {
+        width: 25%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none; 
+    }
+
+    footer {
+        background-color: gray;
+        font-size: large;
+    }
